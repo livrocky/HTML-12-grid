@@ -15,8 +15,13 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-areas: "box-1 box-2 box-3"; */
 }
 
 img {
+  width: 100%;
+}
+
+.grid-item {
   width: 40%;
 }
