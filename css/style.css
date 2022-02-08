@@ -57,3 +57,11 @@ h1 {
   color: snow;
   /* border: 1px solid #000; */
 }
+
+@media (max-width: 500px) {
+  /* css skirtas nuo 0 iki 500px */
+  .footer-grid {
+    display: flex;
+    flex-flow: column;
+  }
+}
