@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import "reset.css";
+@import "common.css";
+
+body {
+  background-color: #333;
+  color: white;
+  margin-bottom: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 300;
+}
+
+/* header */
+.header {
+  background-color: transparent;
+  color: snow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid snow;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  padding: 8px 16px;
+  display: inline-block;
+}
+
+/* hero */
+
+.hero {
+  background: url("../img/header.jpg") no-repeat;
+  background-size: cover;
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
+  text-align: center;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text-container {
+  color: snow;
+  /* border: 1px solid #000; */
+}
+
+/* <----------------------------FOOTER ----------------------------->*/
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  padding: 40px;
+}
+
+.left {
+  width: 30%;
+  padding: 40px;
+}
+
+.bottom {
+  margin-top: 40px;
+}
+
+.quick-menu {
+  width: 30%;
+}
+
+.free-templates {
+  width: 30%;
+}
+
+.social-icons {
+  width: 30%;
+}
+
+.input {
+  padding: 15px;
+  width: 40%;
+  margin-top: 20px;
+  background-color: #333;
+  border: 2px solid rgb(145, 138, 138);
+}
+
+.read-more {
+  padding: 12px;
+  background-color: rgb(136, 207, 30);
+  color: white;
+  width: 35%;
+}
+
+.subscribe {
+  padding: 15px;
+  background-color: rgb(136, 207, 30);
+  color: white;
+  width: 15%;
+}
+
+i {
+  margin-right: 20px;
+  color: rgb(119, 116, 116);
+}
+
+p {
+  color: rgb(119, 116, 116);
+}
+
+a.menu-item {
+  margin-bottom: 20px;
+  color: rgb(119, 116, 116);
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(201, 197, 197);
+}
+
+.stay-up-to-date {
+  margin-top: 40px;
+  width: 100%;
+}
